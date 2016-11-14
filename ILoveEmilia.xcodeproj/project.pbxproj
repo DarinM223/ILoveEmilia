@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		931A00341D96458300E71B40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A00331D96458300E71B40 /* AppDelegate.swift */; };
-		931A00361D96458300E71B40 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 931A00351D96458300E71B40 /* GameScene.sks */; };
-		931A00381D96458300E71B40 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 931A00371D96458300E71B40 /* Actions.sks */; };
-		931A003A1D96458300E71B40 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A00391D96458300E71B40 /* GameScene.swift */; };
+		931A003A1D96458300E71B40 /* EmiliaScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A00391D96458300E71B40 /* EmiliaScene.swift */; };
 		931A003C1D96458300E71B40 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A003B1D96458300E71B40 /* GameViewController.swift */; };
-		931A003F1D96458300E71B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931A003D1D96458300E71B40 /* Main.storyboard */; };
 		931A00411D96458300E71B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A00401D96458300E71B40 /* Assets.xcassets */; };
 		931A00441D96458300E71B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931A00421D96458300E71B40 /* LaunchScreen.storyboard */; };
-		931A004F1D96458300E71B40 /* SwiftGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A004E1D96458300E71B40 /* SwiftGameTests.swift */; };
-		931A005A1D96458300E71B40 /* SwiftGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A00591D96458300E71B40 /* SwiftGameUITests.swift */; };
+		939DC65A1DD90B530063D6D9 /* RemScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939DC6591DD90B530063D6D9 /* RemScene.swift */; };
+		939DC65C1DD9383A0063D6D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939DC65B1DD9383A0063D6D9 /* Constants.swift */; };
+		939DC65E1DD96D550063D6D9 /* gao.png in Resources */ = {isa = PBXBuildFile; fileRef = 939DC65D1DD96D550063D6D9 /* gao.png */; };
+		939DC6601DD981F50063D6D9 /* rem.png in Resources */ = {isa = PBXBuildFile; fileRef = 939DC65F1DD981F50063D6D9 /* rem.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,34 +24,31 @@
 			containerPortal = 931A00281D96458200E71B40 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 931A002F1D96458200E71B40;
-			remoteInfo = SwiftGame;
+			remoteInfo = ILoveEmilia;
 		};
 		931A00561D96458300E71B40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 931A00281D96458200E71B40 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 931A002F1D96458200E71B40;
-			remoteInfo = SwiftGame;
+			remoteInfo = ILoveEmilia;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		931A00301D96458300E71B40 /* SwiftGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931A00301D96458300E71B40 /* ILoveEmilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILoveEmilia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931A00331D96458300E71B40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		931A00351D96458300E71B40 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		931A00371D96458300E71B40 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		931A00391D96458300E71B40 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		931A00391D96458300E71B40 /* EmiliaScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiliaScene.swift; sourceTree = "<group>"; };
 		931A003B1D96458300E71B40 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		931A003E1D96458300E71B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		931A00401D96458300E71B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931A00431D96458300E71B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931A00451D96458300E71B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		931A004A1D96458300E71B40 /* SwiftGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		931A004E1D96458300E71B40 /* SwiftGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameTests.swift; sourceTree = "<group>"; };
-		931A00501D96458300E71B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		931A00551D96458300E71B40 /* SwiftGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		931A00591D96458300E71B40 /* SwiftGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGameUITests.swift; sourceTree = "<group>"; };
-		931A005B1D96458300E71B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931A004A1D96458300E71B40 /* ILoveEmiliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILoveEmiliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		931A00551D96458300E71B40 /* ILoveEmiliaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILoveEmiliaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		939DC6591DD90B530063D6D9 /* RemScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemScene.swift; sourceTree = "<group>"; };
+		939DC65B1DD9383A0063D6D9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		939DC65D1DD96D550063D6D9 /* gao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gao.png; sourceTree = "<group>"; };
+		939DC65F1DD981F50063D6D9 /* rem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rem.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +79,7 @@
 		931A00271D96458200E71B40 = {
 			isa = PBXGroup;
 			children = (
-				931A00321D96458300E71B40 /* SwiftGame */,
-				931A004D1D96458300E71B40 /* SwiftGameTests */,
-				931A00581D96458300E71B40 /* SwiftGameUITests */,
+				931A00321D96458300E71B40 /* ILoveEmilia */,
 				931A00311D96458300E71B40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,53 +87,37 @@
 		931A00311D96458300E71B40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				931A00301D96458300E71B40 /* SwiftGame.app */,
-				931A004A1D96458300E71B40 /* SwiftGameTests.xctest */,
-				931A00551D96458300E71B40 /* SwiftGameUITests.xctest */,
+				931A00301D96458300E71B40 /* ILoveEmilia.app */,
+				931A004A1D96458300E71B40 /* ILoveEmiliaTests.xctest */,
+				931A00551D96458300E71B40 /* ILoveEmiliaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		931A00321D96458300E71B40 /* SwiftGame */ = {
+		931A00321D96458300E71B40 /* ILoveEmilia */ = {
 			isa = PBXGroup;
 			children = (
 				931A00331D96458300E71B40 /* AppDelegate.swift */,
-				931A00351D96458300E71B40 /* GameScene.sks */,
-				931A00371D96458300E71B40 /* Actions.sks */,
-				931A00391D96458300E71B40 /* GameScene.swift */,
+				931A00391D96458300E71B40 /* EmiliaScene.swift */,
 				931A003B1D96458300E71B40 /* GameViewController.swift */,
-				931A003D1D96458300E71B40 /* Main.storyboard */,
 				931A00401D96458300E71B40 /* Assets.xcassets */,
 				931A00421D96458300E71B40 /* LaunchScreen.storyboard */,
 				931A00451D96458300E71B40 /* Info.plist */,
+				939DC6591DD90B530063D6D9 /* RemScene.swift */,
+				939DC65B1DD9383A0063D6D9 /* Constants.swift */,
+				939DC65D1DD96D550063D6D9 /* gao.png */,
+				939DC65F1DD981F50063D6D9 /* rem.png */,
 			);
-			path = SwiftGame;
-			sourceTree = "<group>";
-		};
-		931A004D1D96458300E71B40 /* SwiftGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				931A004E1D96458300E71B40 /* SwiftGameTests.swift */,
-				931A00501D96458300E71B40 /* Info.plist */,
-			);
-			path = SwiftGameTests;
-			sourceTree = "<group>";
-		};
-		931A00581D96458300E71B40 /* SwiftGameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				931A00591D96458300E71B40 /* SwiftGameUITests.swift */,
-				931A005B1D96458300E71B40 /* Info.plist */,
-			);
-			path = SwiftGameUITests;
+			name = ILoveEmilia;
+			path = ILoveEmilia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		931A002F1D96458200E71B40 /* SwiftGame */ = {
+		931A002F1D96458200E71B40 /* ILoveEmilia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931A005E1D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGame" */;
+			buildConfigurationList = 931A005E1D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmilia" */;
 			buildPhases = (
 				931A002C1D96458200E71B40 /* Sources */,
 				931A002D1D96458200E71B40 /* Frameworks */,
@@ -149,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftGame;
-			productName = SwiftGame;
-			productReference = 931A00301D96458300E71B40 /* SwiftGame.app */;
+			name = ILoveEmilia;
+			productName = ILoveEmilia;
+			productReference = 931A00301D96458300E71B40 /* ILoveEmilia.app */;
 			productType = "com.apple.product-type.application";
 		};
-		931A00491D96458300E71B40 /* SwiftGameTests */ = {
+		931A00491D96458300E71B40 /* ILoveEmiliaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931A00611D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGameTests" */;
+			buildConfigurationList = 931A00611D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmiliaTests" */;
 			buildPhases = (
 				931A00461D96458300E71B40 /* Sources */,
 				931A00471D96458300E71B40 /* Frameworks */,
@@ -167,14 +145,14 @@
 			dependencies = (
 				931A004C1D96458300E71B40 /* PBXTargetDependency */,
 			);
-			name = SwiftGameTests;
-			productName = SwiftGameTests;
-			productReference = 931A004A1D96458300E71B40 /* SwiftGameTests.xctest */;
+			name = ILoveEmiliaTests;
+			productName = ILoveEmiliaTests;
+			productReference = 931A004A1D96458300E71B40 /* ILoveEmiliaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		931A00541D96458300E71B40 /* SwiftGameUITests */ = {
+		931A00541D96458300E71B40 /* ILoveEmiliaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931A00641D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGameUITests" */;
+			buildConfigurationList = 931A00641D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmiliaUITests" */;
 			buildPhases = (
 				931A00511D96458300E71B40 /* Sources */,
 				931A00521D96458300E71B40 /* Frameworks */,
@@ -185,9 +163,9 @@
 			dependencies = (
 				931A00571D96458300E71B40 /* PBXTargetDependency */,
 			);
-			name = SwiftGameUITests;
-			productName = SwiftGameUITests;
-			productReference = 931A00551D96458300E71B40 /* SwiftGameUITests.xctest */;
+			name = ILoveEmiliaUITests;
+			productName = ILoveEmiliaUITests;
+			productReference = 931A00551D96458300E71B40 /* ILoveEmiliaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 931A002B1D96458200E71B40 /* Build configuration list for PBXProject "SwiftGame" */;
+			buildConfigurationList = 931A002B1D96458200E71B40 /* Build configuration list for PBXProject "ILoveEmilia" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,9 +210,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				931A002F1D96458200E71B40 /* SwiftGame */,
-				931A00491D96458300E71B40 /* SwiftGameTests */,
-				931A00541D96458300E71B40 /* SwiftGameUITests */,
+				931A002F1D96458200E71B40 /* ILoveEmilia */,
+				931A00491D96458300E71B40 /* ILoveEmiliaTests */,
+				931A00541D96458300E71B40 /* ILoveEmiliaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,11 +222,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A003F1D96458300E71B40 /* Main.storyboard in Resources */,
-				931A00361D96458300E71B40 /* GameScene.sks in Resources */,
+				939DC65E1DD96D550063D6D9 /* gao.png in Resources */,
 				931A00411D96458300E71B40 /* Assets.xcassets in Resources */,
+				939DC6601DD981F50063D6D9 /* rem.png in Resources */,
 				931A00441D96458300E71B40 /* LaunchScreen.storyboard in Resources */,
-				931A00381D96458300E71B40 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A003A1D96458300E71B40 /* GameScene.swift in Sources */,
+				939DC65C1DD9383A0063D6D9 /* Constants.swift in Sources */,
+				931A003A1D96458300E71B40 /* EmiliaScene.swift in Sources */,
+				939DC65A1DD90B530063D6D9 /* RemScene.swift in Sources */,
 				931A003C1D96458300E71B40 /* GameViewController.swift in Sources */,
 				931A00341D96458300E71B40 /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A004F1D96458300E71B40 /* SwiftGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931A005A1D96458300E71B40 /* SwiftGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,25 +277,17 @@
 /* Begin PBXTargetDependency section */
 		931A004C1D96458300E71B40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 931A002F1D96458200E71B40 /* SwiftGame */;
+			target = 931A002F1D96458200E71B40 /* ILoveEmilia */;
 			targetProxy = 931A004B1D96458300E71B40 /* PBXContainerItemProxy */;
 		};
 		931A00571D96458300E71B40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 931A002F1D96458200E71B40 /* SwiftGame */;
+			target = 931A002F1D96458200E71B40 /* ILoveEmilia */;
 			targetProxy = 931A00561D96458300E71B40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		931A003D1D96458300E71B40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				931A003E1D96458300E71B40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		931A00421D96458300E71B40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,9 +395,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGame/Info.plist;
+				INFOPLIST_FILE = ILoveEmilia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmilia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,9 +408,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGame/Info.plist;
+				INFOPLIST_FILE = ILoveEmilia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmilia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -453,12 +422,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGameTests/Info.plist;
+				INFOPLIST_FILE = ILoveEmiliaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmiliaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGame.app/SwiftGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILoveEmilia.app/ILoveEmilia";
 			};
 			name = Debug;
 		};
@@ -468,12 +437,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGameTests/Info.plist;
+				INFOPLIST_FILE = ILoveEmiliaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmiliaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGame.app/SwiftGame";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILoveEmilia.app/ILoveEmilia";
 			};
 			name = Release;
 		};
@@ -482,12 +451,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGameUITests/Info.plist;
+				INFOPLIST_FILE = ILoveEmiliaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmiliaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftGame;
+				TEST_TARGET_NAME = ILoveEmilia;
 			};
 			name = Debug;
 		};
@@ -496,19 +465,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B53D4T6XE8;
-				INFOPLIST_FILE = SwiftGameUITests/Info.plist;
+				INFOPLIST_FILE = ILoveEmiliaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dm.SwiftGameUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dm.ILoveEmiliaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftGame;
+				TEST_TARGET_NAME = ILoveEmilia;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		931A002B1D96458200E71B40 /* Build configuration list for PBXProject "SwiftGame" */ = {
+		931A002B1D96458200E71B40 /* Build configuration list for PBXProject "ILoveEmilia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				931A005C1D96458300E71B40 /* Debug */,
@@ -517,29 +486,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		931A005E1D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGame" */ = {
+		931A005E1D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmilia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				931A005F1D96458300E71B40 /* Debug */,
 				931A00601D96458300E71B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		931A00611D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGameTests" */ = {
+		931A00611D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmiliaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				931A00621D96458300E71B40 /* Debug */,
 				931A00631D96458300E71B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		931A00641D96458300E71B40 /* Build configuration list for PBXNativeTarget "SwiftGameUITests" */ = {
+		931A00641D96458300E71B40 /* Build configuration list for PBXNativeTarget "ILoveEmiliaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				931A00651D96458300E71B40 /* Debug */,
 				931A00661D96458300E71B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

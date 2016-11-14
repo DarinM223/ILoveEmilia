@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwiftGame
+//  ILoveEmilia
 //
 //  Created by Darin Minamoto on 9/23/16.
 //  Copyright © 2016 com.d_m. All rights reserved.
@@ -12,10 +12,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        return true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window?.rootViewController = GameViewController()
+        self.window?.makeKeyAndVisible()
         return true
     }
 

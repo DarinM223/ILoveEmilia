@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931A002F1D96458200E71B40"
-               BuildableName = "SwiftGame.app"
-               BlueprintName = "SwiftGame"
-               ReferencedContainer = "container:SwiftGame.xcodeproj">
+               BuildableName = "ILoveEmilia.app"
+               BlueprintName = "ILoveEmilia"
+               ReferencedContainer = "container:ILoveEmilia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931A00491D96458300E71B40"
-               BuildableName = "SwiftGameTests.xctest"
-               BlueprintName = "SwiftGameTests"
-               ReferencedContainer = "container:SwiftGame.xcodeproj">
+               BuildableName = "ILoveEmiliaTests.xctest"
+               BlueprintName = "ILoveEmiliaTests"
+               ReferencedContainer = "container:ILoveEmilia.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "931A00541D96458300E71B40"
-               BuildableName = "SwiftGameUITests.xctest"
-               BlueprintName = "SwiftGameUITests"
-               ReferencedContainer = "container:SwiftGame.xcodeproj">
+               BuildableName = "ILoveEmiliaUITests.xctest"
+               BlueprintName = "ILoveEmiliaUITests"
+               ReferencedContainer = "container:ILoveEmilia.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931A002F1D96458200E71B40"
-            BuildableName = "SwiftGame.app"
-            BlueprintName = "SwiftGame"
-            ReferencedContainer = "container:SwiftGame.xcodeproj">
+            BuildableName = "ILoveEmilia.app"
+            BlueprintName = "ILoveEmilia"
+            ReferencedContainer = "container:ILoveEmilia.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931A002F1D96458200E71B40"
-            BuildableName = "SwiftGame.app"
-            BlueprintName = "SwiftGame"
-            ReferencedContainer = "container:SwiftGame.xcodeproj">
+            BuildableName = "ILoveEmilia.app"
+            BlueprintName = "ILoveEmilia"
+            ReferencedContainer = "container:ILoveEmilia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "931A002F1D96458200E71B40"
-            BuildableName = "SwiftGame.app"
-            BlueprintName = "SwiftGame"
-            ReferencedContainer = "container:SwiftGame.xcodeproj">
+            BuildableName = "ILoveEmilia.app"
+            BlueprintName = "ILoveEmilia"
+            ReferencedContainer = "container:ILoveEmilia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

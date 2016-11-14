@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SwiftGame.xcodeproj">
+      location = "self:/Users/darin/Documents/git/TestApp/SwiftGame/ILoveEmilia.xcodeproj">
    </FileRef>
 </Workspace>
